@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\FuncFuzz">
+      <UniqueIdentifier>{0839caf8-94c5-4a09-a7b1-bd26be670c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FuncFuzz">
+      <UniqueIdentifier>{3a2e6e87-e0d5-42b3-8e32-4111700ff0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FuncFuzz\Exception">
+      <UniqueIdentifier>{ff3317bf-3b2f-4f72-981f-2c7d0fd66347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\FuncParse.h">
+      <Filter>头文件\FuncFuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\FuzzFuncDef.h">
+      <Filter>头文件\FuncFuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\FuzzLog.h">
+      <Filter>头文件\FuncFuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\FuzzMain.h">
+      <Filter>头文件\FuncFuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\ComHead.h">
+      <Filter>头文件\FuncFuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\FuncFuzz</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\Exception\Exception.h">
+      <Filter>源文件\FuncFuzz\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncFuzz\Exception\ETest.h">
+      <Filter>源文件\FuncFuzz\Exception</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncFuzz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncFuzz\FuncParse.cpp">
+      <Filter>源文件\FuncFuzz</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncFuzz\FuzzLog.cpp">
+      <Filter>源文件\FuncFuzz</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncFuzz\FuzzMain.cpp">
+      <Filter>源文件\FuncFuzz</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncFuzz\Exception\Exception.cpp">
+      <Filter>源文件\FuncFuzz\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncFuzz\Exception\ETest.cpp">
+      <Filter>源文件\FuncFuzz\Exception</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
