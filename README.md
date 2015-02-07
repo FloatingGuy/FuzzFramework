@@ -1,7 +1,4 @@
-some thoughts of fuzzing
-
+a simple fuzz test
 if you have any suggestions and good ideas,please email me!
-
-my email : idhytgg@gmail.com
-	
-	by idhyt
+email : idhytgg@gmail.com
+github: https://github.com/idhyt
