@@ -1,4 +1,9 @@
 // FuncFuzz.cpp : 定义控制台应用程序的入口点。
+/*
+author: idhyt
+email: idhytgg@gmail.com
+if you have any suggestions and good ideas,please email me!
+*/
 //
 
 #include "stdafx.h"
